@@ -2,7 +2,11 @@
 Automation Script for adding, installing from and removing older debian software repos
 
 
-## WARNING: YOU NEED TO MANUALLY CREATE A BACKUP COPY OF YOUR SOURCES.LIST FILE BEFORE RUNNING THIS SCRIPT JUST IN CASE IT STUFFS UP AFTER YOU'VE EDITED IT, YOU CAN DO THIS BY TYPING `sudo cp /etc/apt/sources.list /where/ever/you/want/`
+### WARNING: YOU NEED TO MANUALLY CREATE A BACKUP COPY OF YOUR SOURCES.LIST FILE BEFORE RUNNING THIS SCRIPT JUST IN CASE IT STUFFS UP AFTER YOU'VE EDITED IT, YOU CAN DO THIS BY TYPING THE COMMAND SEEN BELOW 
+`sudo cp /etc/apt/sources.list /where/ever/you/want/` Just replace where it reads "/where/ever/you/want/" with the directory you want to back your sources.list up in 
+### Example
+`sudo cp /etc/apt/sources.list /home/kali/Documents`
+
 
 
 ## How to use this script
