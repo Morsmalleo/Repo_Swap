@@ -19,11 +19,11 @@ Edit the followings line in the script
 ![line18](https://user-images.githubusercontent.com/64344168/112147789-01d58f00-8bd5-11eb-9e53-dbf94f903c63.png)
 
 
-- Line 22
+- Line 22 (insert software repo----example: deb http://deb.debian.org/debian jessie main contrib non-free)
 ![line22](https://user-images.githubusercontent.com/64344168/112147837-0d28ba80-8bd5-11eb-9b50-7f2b6a92051f.png)
 
 
-- Line 23
+- Line 23 (Insert software repo name-------example: Jessie, Stretch, Sid, BUllseye, Buster
 ![line23](https://user-images.githubusercontent.com/64344168/112147857-144fc880-8bd5-11eb-813c-64faec368ee0.png)
 
 
@@ -31,15 +31,15 @@ Edit the followings line in the script
 ![line26](https://user-images.githubusercontent.com/64344168/112147894-203b8a80-8bd5-11eb-881c-e86c88dc7608.png)
 
 
-- Line 29
+- Line 29 (Insert what packages need to be installed from the older software repo you added on lines 22 & 23)
 ![line29](https://user-images.githubusercontent.com/64344168/112147916-27fb2f00-8bd5-11eb-859f-550b6baed32a.png)
 
 
-- Line 33
+- Line 33 (insert the name you gave the sources.list file on line 15) 
 ![line33](https://user-images.githubusercontent.com/64344168/112147956-2fbad380-8bd5-11eb-9ad8-eab35ba4a111.png)
 
 
-- Line 38 (Only if you need upto date packages from Parrot repos or Kali Repos, if you dont you can delete line 38)
+- Line 38 (Only if you need upto date packages from Parrot repos or Kali Repos, if you dont, you can delete this line)
 ![line38](https://user-images.githubusercontent.com/64344168/112147968-33e6f100-8bd5-11eb-92c6-e5872d97ec1c.png)
 
 ## Give the script executable permissions
