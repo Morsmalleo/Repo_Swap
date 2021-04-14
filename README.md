@@ -9,7 +9,7 @@ securing your orginal sources.list file, this script was written to be an add on
 
 
 ### YOU CAN BACKUP YOUR SOURCES.LIST FILE BY TYPING THE COMMAND SEEN BELOW 
-`sudo cp /etc/apt/sources.list /where/ever/you/want/` Just replace where it reads "/where/ever/you/want/" with the directory you want to back your sources.list up in. Example on this is below!
+`sudo cp /etc/apt/sources.list /where/ever/you/want/` Just replace where it reads `/where/ever/you/want/` with the directory you want to back your sources.list file up in. Example on this is below! 
 ### Example
 `sudo cp /etc/apt/sources.list /home/kali/Documents`
 
