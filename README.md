@@ -3,7 +3,9 @@ Automation Script for adding older software repo's to the sources.list file. can
 securing your orginal sources.list file, this script was written to be an add on for tools/apps that require older packages from older software repo's to be installed in order for them to work, an example of this script being used as an add-on can be found in my Forked Repository of AhMyth-Android-RAT.
 
 
-### WARNING: YOU NEED TO MANUALLY CREATE A BACKUP COPY OF YOUR SOURCES.LIST FILE BEFORE RUNNING THIS SCRIPT JUST IN CASE IT STUFFS UP AFTER YOU'VE EDITED IT, DO NOT RUN THIS SCRIPT WITHOUT EDITING IT FIRST, YOU CAN BACKUP YOUR SOURCES.LIST FILE BY TYPING THE COMMAND SEEN BELOW 
+### WARNING: YOU NEED TO MANUALLY CREATE A BACKUP COPY OF YOUR SOURCES.LIST FILE BEFORE RUNNING THIS SCRIPT JUST IN CASE IT STUFFS UP AFTER YOU'VE EDITED IT.   ### DO NOT RUN THIS SCRIPT WITHOUT EDITING IT FIRST! 
+
+### YOU CAN BACKUP YOUR SOURCES.LIST FILE BY TYPING THE COMMAND SEEN BELOW 
 `sudo cp /etc/apt/sources.list /where/ever/you/want/` Just replace where it reads "/where/ever/you/want/" with the directory you want to back your sources.list up in. Example on this is below!
 ### Example
 `sudo cp /etc/apt/sources.list /home/kali/Documents`
