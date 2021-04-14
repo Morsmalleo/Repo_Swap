@@ -37,7 +37,7 @@ Edit the followings line in the script
 ![line26](https://user-images.githubusercontent.com/64344168/112147894-203b8a80-8bd5-11eb-881c-e86c88dc7608.png)
 
 
-- Line 29: Insert what packages need to be installed from the older software repo you added on lines 22 & 23 (example: apt-get install glassfish-javaee)
+- Line 29: Insert the package(s) needed to be installed from the older software repo you added on lines 22 & 23 (example: apt install opendjk-8-jdk)
 ![line29](https://user-images.githubusercontent.com/64344168/112147916-27fb2f00-8bd5-11eb-859f-550b6baed32a.png)
 
 
