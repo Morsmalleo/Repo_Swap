@@ -37,7 +37,7 @@ Edit the followings line in the script
 ![line26](https://user-images.githubusercontent.com/64344168/112147894-203b8a80-8bd5-11eb-881c-e86c88dc7608.png)
 
 
-- Line 29: Insert what packages need to be installed from the older software repo you added on lines 22 & 23
+- Line 29: Insert what packages need to be installed from the older software repo you added on lines 22 & 23 (example: apt-get install glassfish-javaee)
 ![line29](https://user-images.githubusercontent.com/64344168/112147916-27fb2f00-8bd5-11eb-859f-550b6baed32a.png)
 
 
@@ -45,7 +45,7 @@ Edit the followings line in the script
 ![line33](https://user-images.githubusercontent.com/64344168/112147956-2fbad380-8bd5-11eb-9ad8-eab35ba4a111.png)
 
 
-- Line 38: Optional line to install packages from current up-to-date repositories, if this is not need, then you can delete this line
+- Line 38: Optional line to install packages from current up-to-date repositories, if this is not needed, then you can delete this line
 ![line38](https://user-images.githubusercontent.com/64344168/112147968-33e6f100-8bd5-11eb-92c6-e5872d97ec1c.png)
 
 ## Give the script executable permissions
