@@ -1,19 +1,7 @@
-# SoftwareRepo-Automation
-Automation Script for adding older software repo's to the sources.list file. can be Edited to install packages from older software repo's while safely 
-securing your orginal sources.list file, this script was written to be an add on for tools/apps that require older packages from older software repo's to be installed in order for them to work, an example of this script being used as an add-on can be found in my Forked Repository of AhMyth-Android-RAT.
+# Repo_Swap
+Repo_Swap is a bash script for Linux Applications written for the sole purpose of installing older packages, from older software repositories such as Debian Stretch or Debian Jessie etc, the script was written so that you do not have to manually edit your `sources.list` file to add the older software repository mirrors in order to install the older packages you may need.
 
-## DISCLAIMER: I am not reponsible for any damage or deletion of files by this script, the steps to edit it in order to make it work properly have been posted, so if you don't know what you are doing then don't mess with this script, as it handles an important file.
-
-### WARNING: DO NOT RUN THIS SCRIPT WITHOUT EDITING IT TO YOUR PREFERENCES FIRST!!
-### WARNING: IN CASE THE SCRIPT SCREWS UP AFTER YOU'VE EDITED IT, YOU NEED TO MANUALLY CREATE A BACKUP OF YOUR SOURCES.LIST FILE AND PLACE IT SOMEWHERE AWAY FROM `/etc/apt/`--`/etc/apt/sources.list.d`
-
-
-### YOU CAN BACKUP YOUR SOURCES.LIST FILE BY TYPING THE COMMAND SEEN BELOW 
-`sudo cp /etc/apt/sources.list /where/ever/you/want/` Just replace where it reads `/where/ever/you/want/` with the directory you want to back your sources.list file up in. Example on this is below! 
-### Example
-`sudo cp /etc/apt/sources.list /home/kali/Documents`
-
-
+Older software repository mirrors are removed by the script was once its finished.
 
 ## How to use this script
 Edit the followings line in the script 
