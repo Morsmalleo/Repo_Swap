@@ -31,6 +31,7 @@ apt-get clean && apt-get clean cache && apt-get autoclean
 sleep 1
 
 echo "All Done!"
+sleep 2
 clear
 
 exit 0
