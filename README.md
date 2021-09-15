@@ -3,27 +3,19 @@ Repo_Swap is a bash script for Linux Applications written for the sole purpose o
 
 Older software repository mirrors are removed by the script once it has finished its work.
 # How to use this script
-### **Edit the followings line in the script**
-1. **Line 15:** Insert the name for the .list file to be created inside `/etc/apt/source.list.d` folder 
-- Example: `java.list`
-----------------------------------------
-2. **Line 22:** Insert the software repo 
-- Example: `deb http://deb.debian.org/debian stretch main contrib non-free`
-----------------------------------------
-3. **Line 23:** Insert software repo name 
-- Example: `Updating Repositories Debian <Stretch>` without the "<>"
-----------------------------------------
-4. **Line 29:** Insert the package(s) needed to be installed from the older software repo 
-- example: `apt install opendjk-8-jdk`
-----------------------------------------
-5. **Line 33:** Insert the name you gave the sources.list file on line 15 
-- Example: `java.list`
-----------------------------------------
-6. **Line 38:** Insert modern package name, this is optional if newer packages are not needed
-- Example: `apt-get install openjdk-11-jdk`
-----------------------------------------
-7. Give the script executable permissions
-`chmod +x Repo_Swap`
-----------------------------------------
-8. Then run the script
-`./Repo_Swap`
+To use this script it must be tailored to your needs, in order to tailor this script to your needs, you will need to edit the following lines of code in the `Repo_Swap` file 
+
+- Line 15 - Insert any name for the `.list` - `Example: java.list`
+- Line 16 - Insert Software Repo mirror & the name you gave the `.list` file 
+- Line 17 - Insert the name of the older software repo - `Example: Debian Stretch`
+- Line 20 - Insert the name of the older package to be installed - `Example: openjdk-8-jdk`
+- Line 22 - Insert the name of the older software repo you used, and the name you gave the `.list` file so they can be removed 
+- Line 31 - Insert the name of a more recent package to be installed - `Example: openjdk-11-jdk` - If this line isn't needed then remove it
+
+Once you have tailored the script to your needs, you can then go ahead and give the `Repo_Swap` file executable permissions and then run it
+- `chmod +x Repo_Swap`
+- `./Repo_Swap` - MUST BE RAN AS ROOT
+-------------------------------------
+an `Example` file that installs both Java 8 Development Kit & Java 11 Development Kit, was created in order to demonstrate what Repo_Swap will do if everything has been tailored correctly, do the same thing you did with the `Repo_Swap` file to run it
+- `chmod +x Example`
+- `./Example` - MUST BE RAN AS ROOT
