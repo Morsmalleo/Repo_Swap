@@ -14,8 +14,8 @@ To use this script it must be tailored to your needs, in order to tailor this sc
 
 Once you have tailored the script to your needs, you can then go ahead and give the `Repo_Swap` file executable permissions and then run it
 - `chmod +x Repo_Swap`
-- `./Repo_Swap` - MUST BE RAN AS ROOT
+- `sudo ./Repo_Swap`
 -------------------------------------
-an `Example` file that installs both Java 8 Development Kit & Java 11 Development Kit, was created in order to demonstrate what Repo_Swap will do if everything has been tailored correctly, do the same thing you did with the `Repo_Swap` file to run it
+an `Example` file that installs both Java 8 Development Kit & Java 11 Development Kit, was created in order to demonstrate what Repo_Swap will do if everything has been tailored correctly
 - `chmod +x Example`
-- `./Example` - MUST BE RAN AS ROOT
+- `sudo ./Example`
