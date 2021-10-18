@@ -7,21 +7,21 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 # Install xterm for old software repo updates and orginal repo reactivation
-apt-get install gnome-terminal -y
+apt-get install xterm -y
 
 # Create a .list file containing the older software 
 # repo mirror of your choice 
 # then activates said software repo by running an update
 touch /etc/apt/sources.list.d/java-8.list
 echo "deb http://deb.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list.d/java-8.list
-gnome-terminal -t " Updating Repositories Debian Stretch " -geometry 100x30 -- "apt-get update -y"
+xterm -T " Updating Repositories Debian Stretch " -geometry 100x30 -e "apt-get update -y"
 sleep 1
 
 	apt-get install openjdk-8-jdk* openjdk-8-jre*
 
 # removes the java-8.list file after installing the needed packages
 echo " Removing Repositories Debian Stretch " rm -f /etc/apt/sources.list.d/java-8.list
-gnome-terminal -t " Updating Your Current Repositories List(s) " -geometry 100x30 -- "apt-get update"
+xterm -T " Updating Your Current Repositories List(s) " -geometry 100x30 -e "apt-get update"
 sleep 1
    
    # installs a most recent upto date package from your current software repositories
